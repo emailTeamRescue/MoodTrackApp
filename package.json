@@ -1,0 +1,19 @@
+{
+  "name": "emojis-mood-tracker",
+  "version": "1.0.0",
+  "description": "This is an application which helps with APIs dealing with mood tracking using emojis.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Japhanya N",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.3",
+    "sequelize": "^6.37.5"
+  }
+}
